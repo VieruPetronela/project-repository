@@ -26,4 +26,9 @@ public class XML extends Document {
     public String toString() {
         return "XML " + super.toString();
     }
+    
+    public void classModified()
+    {
+    	System.out.println("Modified class");
+    }
 }
